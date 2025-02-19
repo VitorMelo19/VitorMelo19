@@ -1,7 +1,3 @@
-<div align="center">
-  <img height="150" src="https://camo.githubusercontent.com/62da68eb62b1e5f175f7d1f0191dd89a653d7908feb22d37d4a0ab07365d6791/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4d3967624264396e6244724f5475314d71782f67697068792e676966"  />
-</div>
-
 ###
 <div align="center">
   <a href="https://www.linkedin.com/in/oficialvitormelo/" target="_blank">
@@ -23,12 +19,13 @@
 <h3 align="center">👩‍💻Um pouco sobre mim</h3>
 
 ###
-
 <p align="left">💙Olá, eu sou o Vitor Melo<br>🌍De São Paulo, Brasil<br><br> 📚 Atualmente cursando ADS e COMEX<br>💭 Aspirante a Full-Stack com interesse em Desenvolvimento Web e Profissional em Dados<br>🎯 Foco em HTML, CSS, Phyton, C#<br> ✨ Criando Projetos para aprimorar minhas habilidades</p> 
+
+<img align="right" height="157" src="https://art.ngfiles.com/images/6398000/6398215_1650301_acecre4m_sonic-mania-adventures-pixel-style.6180260560ce4141f640e4001a2690ec.webp?f1737851681"  />
 
 ###
 
-<h3 align="left">🛠 Linguagens e Ferramentas</h3>
+<h3 align="left">🛠 Linguagens e Ferramentas:</h3>
 
 ###
 
