@@ -1,4 +1,5 @@
 ###
+
 <div align="center">
   <a href="https://www.linkedin.com/in/oficialvitormelo/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="linkedin logo"  />
@@ -12,6 +13,7 @@
 </div>
 
 ###
+
 <h1 align="center">Welcome to My GitHub👋</h1>
 
 ###
@@ -19,6 +21,7 @@
 <h3 align="center">👩‍💻Um pouco sobre mim</h3>
 
 ###
+
 <p align="left">💙Olá, eu sou o Vitor Melo<br>🌍De São Paulo, Brasil<br><br> 📚 Atualmente cursando ADS e COMEX<br>💭 Aspirante a Full-Stack com interesse em Desenvolvimento Web e Profissional em Dados<br>🎯 Foco em HTML, CSS, Phyton, C#<br> ✨ Criando Projetos para aprimorar minhas habilidades</p> 
 
 <img align="right" height="157" src="https://art.ngfiles.com/images/6398000/6398215_1650301_acecre4m_sonic-mania-adventures-pixel-style.6180260560ce4141f640e4001a2690ec.webp?f1737851681"  />
@@ -29,7 +32,6 @@
 
 ###
 
-<div align="left">
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="csharp logo"  />
   <img width="12" />
@@ -51,11 +53,7 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="40" alt="canva logo"  />
   <img width="12" />
-
-
-</div>
-
-###
+  <img src="https://github.com/user-attachments/assets/ef88f574-a8c2-433a-a28f-9a2386d43891" height="40" alt="clip studio logo"  />
 </div>
 
 ###
@@ -64,11 +62,9 @@
 
 ###
 
-
   <div align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=VitorMelo19&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=react&locale=pt-br&hide_border=false&order=1" height="150" alt="stats graph"  />
   <img src="https://streak-stats.demolab.com?user=VitorMelo19&locale=pt-br&mode=daily&theme=react&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  /> <br>
-  
 </div>
 
 ###
