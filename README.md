@@ -28,7 +28,6 @@
 <p align="left">
   💙Olá, eu sou o Vitor Melo
   <br>🌍 De São Paulo, Brasil<br>
-
   <br>📚 Atualmente cursando <strong>Análise e Desenvolvimento de Sistemas.</strong>
   <br>💭 Apaixonado por Dados e em busca de atuar com <strong>Machine Learning.</strong>
   <br>🎯 Estudando e aplicando conhecimentos em <strong> Python, Power Bi, SQL, Cloud (AWS, Azure) e C# </strong>
