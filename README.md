@@ -2,13 +2,13 @@
 
 <div align="center">
   <a href="https://www.linkedin.com/in/oficialvitormelo/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="" alt="linkedin logo"  />
+    <img src="https://github.com/user-attachments/assets/307fee2e-03d5-4572-bb17-eac1874b2af4" height="40" alt="linkedin logo"  />
   </a>
   <a href="mailto:vitormeloemprego@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="gmail logo"  />
+    <img src="https://github.com/user-attachments/assets/bf934555-69cf-4557-97bb-748193e182f8" height="40" alt="gmail logo"  />
   </a>
   <a href="https://www.instagram.com/oficialvitormelo/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="40" alt="instagram logo"  />
+    <img src="https://github.com/user-attachments/assets/44a69b49-8b7a-4ded-ab08-8352728285d6" height="40" alt="instagram logo"  />
   </a>
 </div>
 
@@ -27,7 +27,8 @@
   <br>🌍 De São Paulo, Brasil<br>
   <br>📚 Atualmente cursando <strong>Análise e Desenvolvimento de Sistemas.</strong>
   <br>💭 Apaixonado por Dados e em busca de atuar com <strong>Machine Learning.</strong>
-  <br>🎯 Estudando e aplicando conhecimentos em <strong> Python, Power Bi, SQL, Cloud (AWS, Azure) e C# </strong>
+  <br>🎯 Estudando e aplicando conhecimentos em <
+strong> Python, Power Bi, SQL, Cloud (AWS, Azure) e C# </strong>
   <br>✨ Desenvolvendo projetos práticos para expandir minhas habilidades e experiências.</p> 
 
 <img align="right" height="157" src="https://art.ngfiles.com/images/6398000/6398215_1650301_acecre4m_sonic-mania-adventures-pixel-style.6180260560ce4141f640e4001a2690ec.webp?f1737851681"  />
