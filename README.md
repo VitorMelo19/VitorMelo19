@@ -3,13 +3,13 @@
 
 <div align="center">
   <a href="https://www.linkedin.com/in/oficialvitormelo/" target="_blank">
-    <img src="https://github.com/user-attachments/assets/307fee2e-03d5-4572-bb17-eac1874b2af4" height="40" alt="linkedin logo"  />
+    <img src="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/main/Logos/Linkedin.svg" height="40" alt="linkedin logo"  />
   </a>
   <a href="mailto:vitormeloemprego@gmail.com">
-    <img src="https://github.com/user-attachments/assets/bf934555-69cf-4557-97bb-748193e182f8" height="40" alt="gmail logo"  />
+    <img src="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/main/Logos/Gmail.svg" height="40" alt="gmail logo"  />
   </a>
   <a href="https://www.instagram.com/oficialvitormelo/" target="_blank">
-    <img src="https://github.com/user-attachments/assets/44a69b49-8b7a-4ded-ab08-8352728285d6" height="40" alt="instagram logo"  />
+    <img src="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/main/Logos/Instagram.svg" height="40" alt="instagram logo"  />
 
   </a>
 </div>
@@ -41,29 +41,29 @@
 ###
 
 <div align="left">
-  <img src="https://github.com/user-attachments/assets/ef351be2-4369-4ba8-a4c7-d8336176b349" height="40" alt="c++ logo"  />
+  <img src="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/main/Logos/C%2B%2B.png" height="40" alt="c++ logo"  />
   <img width="12" />
-  <img src="https://github.com/user-attachments/assets/a967ec37-2eea-42de-b4ce-848db4fbe249" height="40" alt="csharp logo"  />
+  <img src="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/main/Logos/csharp.png" height="40" alt="csharp logo"  />
   <img width="12" />
-  <img src="https://github.com/user-attachments/assets/2f8b1651-3e46-4293-a330-4802cf7e7bd8" height="44" alt="python logo"  />
+  <img src="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/main/Logos/python.gif" height="44" alt="python logo"  />
   <img width="1" />
-  <img src="https://github.com/user-attachments/assets/91d46853-a0fd-4986-a614-7c32805fd0d7" height="44" alt="html logo"  />
+  <img src="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/main/Logos/Html.svg" height="44" alt="html logo"  />
   <img width="12" />
-  <img src="https://github.com/user-attachments/assets/a91fecb4-969b-4bfa-bd65-b391193b7ea0" height="44" alt="css logo"  />
+  <img src="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/main/Logos/css.png" height="44" alt="css logo"  />
   <img width="12" />
-  <img src="https://github.com/user-attachments/assets/cea9fe62-6a09-4cf3-9476-f816eee14e0b" height="46" alt="javascript logo"  />
+  <img src="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/main/Logos/javascript-seeklogo.png" height="46" alt="javascript logo"  />
   <img width="12" />
-  <img src="https://github.com/user-attachments/assets/ccdcd904-7db3-433d-ba5e-ee4ad49190c8" height="42" alt="unity logo"  />
+  <img src="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/main/Logos/unity-logo.svg" height="42" alt="unity logo"  />
   <img width="12" />
-  <img src="https://github.com/user-attachments/assets/a1f34625-6f99-48c8-a49a-5d680f189fdd" height="40" alt="visualstudio logo"  />
+  <img src="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/main/Logos/vscode.svg" height="40" alt="visualstudio logo"  />
   <img width="8" />
-  <img src="https://github.com/user-attachments/assets/fab1da87-6df4-49fe-b477-57c2f759cd0c" height="47" alt="vscode logo"/>
+  <img src="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/main/Logos/visual-studio.svg" height="47" alt="vscode logo"/>
   <img width="1" />
-  <img src="https://github.com/user-attachments/assets/2d448fa0-5215-4002-9f0a-609cc4b6f58e" height="50" alt="adobephotoshop logo"  />
+  <img src="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/main/Logos/adobe-photoshop.svg" height="50" alt="adobephotoshop logo"  />
   <img width="1" />
-  <img src="https://github.com/user-attachments/assets/959e840a-92f3-4d35-b2f8-069a8db6396d" height="47" alt="clip studio logo"  />
+  <img src="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/main/Logos/clip-studio-paint.svg" height="47" alt="clip studio logo"  />
   <img width="1" />
-  <img src="https://github.com/user-attachments/assets/361af64f-dadf-461d-8146-90947a1f9a92" height="42" alt="canva logo"  />
+  <img src="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/main/Logos/canva.png" height="42" alt="canva logo"  />
   <img width="8" />
   
 </div>
