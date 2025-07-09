@@ -27,8 +27,7 @@
   <br>🌍 De São Paulo, Brasil<br>
   <br>📚 Atualmente cursando <strong>Análise e Desenvolvimento de Sistemas.</strong>
   <br>💭 Apaixonado por Dados e em busca de atuar com <strong>Machine Learning.</strong>
-  <br>🎯 Estudando e aplicando conhecimentos em <
-strong> Python, Power Bi, SQL, Cloud (AWS, Azure) e C# </strong>
+  <br>🎯 Estudando e aplicando conhecimentos em <strong> Python, Power Bi, SQL, Cloud (AWS, Azure) e C# </strong>
   <br>✨ Desenvolvendo projetos práticos para expandir minhas habilidades e experiências.</p> 
 
 <img align="right" height="157" src="https://art.ngfiles.com/images/6398000/6398215_1650301_acecre4m_sonic-mania-adventures-pixel-style.6180260560ce4141f640e4001a2690ec.webp?f1737851681"  />
