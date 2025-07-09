@@ -32,7 +32,7 @@
   <br>🎯 Estudando e aplicando conhecimentos em <strong> Python, Power Bi, SQL, Cloud (AWS, Azure) e C# </strong>
   <br>✨ Desenvolvendo projetos práticos para expandir minhas habilidades e experiências.</p> 
 
-<img align="right" height="200" src="https://art.ngfiles.com/images/2550000/2550853_dreamaster_tails.png?f1654027876" alt="Img-Tails"/>
+<img align="right" height="170" src="https://art.ngfiles.com/images/2550000/2550853_dreamaster_tails.png?f1654027876" alt="Img-Tails"/>
 
 ###
 
