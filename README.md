@@ -1,10 +1,11 @@
 ###
 
+
 <div align="center">
   <a href="https://www.linkedin.com/in/oficialvitormelo/" target="_blank">
     <img src="https://github.com/user-attachments/assets/307fee2e-03d5-4572-bb17-eac1874b2af4" height="40" alt="linkedin logo"  />
   </a>
-  <a href="mailto:vitormeloemprego@gmail.com" target="_blank">
+  <a href="mailto:vitormeloemprego@gmail.com">
     <img src="https://github.com/user-attachments/assets/bf934555-69cf-4557-97bb-748193e182f8" height="40" alt="gmail logo"  />
   </a>
   <a href="https://www.instagram.com/oficialvitormelo/" target="_blank">
