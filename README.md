@@ -1,10 +1,9 @@
 <!-- ═══════════════ HEADER ANIMADO ═══════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1e90ff,100:ff9f1c&height=230&section=header&text=Vitor%20Melo&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Dev%20%7C%20Dados%20%7C%20Machine%20Learning%20%7C%20Cloud&descSize=20&descAlignY=60" width="100%" alt="Banner Vitor Melo"/>
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1e90ff,100:ff9f1c&height=230&section=header&text=Vitor%20Melo&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Dev%20%7C%20Analista%20de%20Dados%20%7C%20Cloud&descSize=20&descAlignY=60" width="100%" alt="Banner Vitor Melo"/>
 <a href="https://github.com/VitorMelo19">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=FF9F1C&center=true&vCenter=true&width=700&lines=%3E+Ol%C3%A1%2C+eu+sou+o+Vitor+%F0%9F%91%8B;%3E+Transformando+dados+em+decis%C3%B5es+%F0%9F%93%8A;%3E+Estudando+Machine+Learning+%F0%9F%A4%96;%3E+Construindo+solu%C3%A7%C3%B5es+na+nuvem+%E2%98%81%EF%B8%8F;%3E+Sempre+evoluindo%2C+como+o+Tails+%F0%9F%A6%8A%E2%9A%A1" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=1E90FF&center=true&vCenter=true&width=700&lines=%3E+Ol%C3%A1%2C+eu+sou+o+Vitor;%3E+Analista+de+Dados;%3E+Transformando+dados+em+decis%C3%B5es;%3E+Construindo+solu%C3%A7%C3%B5es+na+nuvem;%3E+Sempre+evoluindo" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -13,9 +12,9 @@
 <a href="mailto:vitormelocursos@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://instagram.com/oficialvitormelo"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
 
-<br/><br/>
+<br/>
 
-<img src="https://komarev.com/ghpvc/?username=VitorMelo19&label=Visitas&color=ff9f1c&style=for-the-badge" alt="Visitas"/>
+<img src="https://api.visitorbadge.io/api/visitors?path=VitorMelo19&label=Visitas&labelColor=%230d1117&countColor=%231e90ff&style=for-the-badge&labelStyle=upper" alt="Visitas"/>
 
 </div>
 
@@ -116,23 +115,12 @@ class VitorMelo:
 
 <div align="center">
 
-<a href="https://github.com/VitorMelo19/Ficcao-Criminal">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=VitorMelo19&repo=Ficcao-Criminal&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff9f1c&icon_color=1e90ff" />
-</a>
-<a href="https://github.com/VitorMelo19/ClickPet">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=VitorMelo19&repo=ClickPet&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff9f1c&icon_color=1e90ff" />
-</a>
-
-<a href="https://github.com/2024-2-NADS1/Projeto7">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=2024-2-NADS1&repo=Projeto7&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff9f1c&icon_color=1e90ff" />
-</a>
-<a href="https://github.com/2025-1-NADS2/Projeto6">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=2025-1-NADS2&repo=Projeto6&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff9f1c&icon_color=1e90ff" />
-</a>
+<a href="https://github.com/VitorMelo19/Ficcao-Criminal"><img src="assets/projetos/ficcao-criminal.svg" width="49%" alt="Ficção Criminal"/></a>
+<a href="https://github.com/VitorMelo19/ClickPet"><img src="assets/projetos/clickpet.svg" width="49%" alt="ClickPet"/></a>
+<a href="https://github.com/2024-2-NADS1/Projeto7"><img src="assets/projetos/sensor-incendios.svg" width="49%" alt="Sensor de Incêndios Inteligente"/></a>
+<a href="https://github.com/2025-1-NADS2/Projeto6"><img src="assets/projetos/projeto-6.svg" width="49%" alt="Projeto 6"/></a>
 
 </div>
-
-> 🔥 **Destaque:** *Sensor de incêndios inteligente* com monitoramento em tempo real, alertas via buzzer, LED e notificações por aplicativo (C++ / IoT).
 
 ---
 
@@ -141,15 +129,11 @@ class VitorMelo:
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/output/github-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/output/github-snake-dark.svg" />
-</picture>
+<img src="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/output/github-snake.svg" width="100%" alt="Cobrinha azul comendo as contribuições"/>
 
 </div>
 
-<sub>*Requer o workflow `snake.yml` (veja abaixo). Até rodar a primeira vez, a imagem não aparece.*</sub>
+<sub>*A cobrinha cresce a cada contribuição que come. Atualiza sozinha a cada 12 horas.*</sub>
 
 ---
 
