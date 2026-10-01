@@ -21,7 +21,7 @@
 ---
 
 <!-- ═══════════════ SOBRE MIM + TAILS ═══════════════ -->
-## 🧠 `whoami`
+## 🧠 `Sobre Mim`
 
 <table>
 <tr>
@@ -34,8 +34,7 @@ class VitorMelo:
         self.local = "São Paulo, Brasil 🇧🇷"
         self.cursando = "Análise e Desenvolvimento de Sistemas"
         self.foco = ["Dados", "Machine Learning", "Cloud"]
-        self.estudando = ["Python", "Power BI", "SQL",
-                          "AWS", "Azure", "C#"]
+        self.estudando = ["Python", "Power BI", "SQL", "AWS", "Azure", "C#"]
         self.mascote = "Tails 🦊 — o gênio da tecnologia"
 
     def objetivo(self):
