@@ -22,38 +22,12 @@
 
 <!-- ═══════════════ SOBRE MIM + TAILS ═══════════════ -->
 ## 🧠 `Sobre Mim`
+<div align="center">
+<div align="center"> <img src="assets/sobre-mim.svg" width="69%" alt="Sobre mim" align="middle"/> <img src="assets/tails-card.svg" width="27.6%" alt="Tails" align="middle"/>
+<br/><br/>
 
-<table>
-<tr>
-<td width="62%" valign="top">
-
-```python
-class VitorMelo:
-    def __init__(self):
-        self.nome = "Vitor Melo"
-        self.local = "São Paulo, Brasil 🇧🇷"
-        self.cursando = "Análise e Desenvolvimento de Sistemas"
-        self.foco = ["Dados", "Machine Learning", "Cloud"]
-        self.estudando = ["Python", "Power BI", "SQL", "AWS", "Azure", "C#"]
-        self.mascote = "Tails 🦊 — o gênio da tecnologia"
-
-    def objetivo(self):
-        return "Criar projetos práticos que ensinam e entregam valor"
-```
-
-</td>
-<td width="38%" align="center" valign="middle">
-
-<!-- Coloque sua imagem do Tails em assets/tails.png -->
-<img src="assets/tails.png" width="230" alt="Tails"/>
-
-<sub><i>"Todo bom dev precisa de um bom parceiro de voo."</i></sub>
-
-</td>
-</tr>
-</table>
-
-> 🦊 **Por que o Tails?** Ele é o gênio da tecnologia do Sonic: constrói, inventa e resolve problemas com engenhosidade. É assim que eu quero trabalhar.
+<img src="assets/por-que-tails.svg" width="100%" alt="Por que o Tails?"/> </div>
+</div>
 
 ---
 
@@ -80,18 +54,7 @@ class VitorMelo:
 <!-- ═══════════════ TRILHA DE APRENDIZADO ═══════════════ -->
 ## 🚀 Trilha de Evolução
 
-<div align="center">
-  
-| Área | Status | Progresso |
-|------|--------|-----------|
-| 🐍 Python & Dados | Em prática | ![](https://geps.dev/progress/85) |
-| 🗄️ SQL | Em prática | ![](https://geps.dev/progress/80) |
-| 📊 Power BI | Em prática | ![](https://geps.dev/progress/75) |
-| 🤖 Machine Learning | Estudando | ![](https://geps.dev/progress/50) |
-| ☁️ Cloud (AWS / Azure) | Estudando | ![](https://geps.dev/progress/60) |
-| 🔷 C# | Estudando | ![](https://geps.dev/progress/40) |
-
-</div>
+<div align="center"> <img src="assets/trilha-evolucao.svg" width="88%" alt="Trilha de evolução"/> </div>
 
 ---
 
