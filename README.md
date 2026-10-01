@@ -80,6 +80,8 @@ class VitorMelo:
 <!-- ═══════════════ TRILHA DE APRENDIZADO ═══════════════ -->
 ## 🚀 Trilha de Evolução
 
+<div align="center">
+  
 | Área | Status | Progresso |
 |------|--------|-----------|
 | 🐍 Python & Dados | Em prática | ![](https://geps.dev/progress/85) |
@@ -88,20 +90,6 @@ class VitorMelo:
 | 🤖 Machine Learning | Estudando | ![](https://geps.dev/progress/50) |
 | ☁️ Cloud (AWS / Azure) | Estudando | ![](https://geps.dev/progress/60) |
 | 🔷 C# | Estudando | ![](https://geps.dev/progress/40) |
-
----
-
-<!-- ═══════════════ ESTATÍSTICAS ═══════════════ -->
-## 📈 Estatísticas
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=VitorMelo19&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff9f1c&icon_color=1e90ff&text_color=c9d1d9&count_private=true" alt="Stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VitorMelo19&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff9f1c&text_color=c9d1d9" alt="Top Langs"/>
-
-<img src="https://streak-stats.demolab.com?user=VitorMelo19&theme=tokyonight&hide_border=true&background=0d1117&ring=ff9f1c&fire=ff9f1c&currStreakLabel=1e90ff" alt="Streak"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=VitorMelo19&bg_color=0d1117&color=ff9f1c&line=1e90ff&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph"/>
 
 </div>
 
@@ -121,6 +109,21 @@ class VitorMelo:
 
 ---
 
+<!-- ═══════════════ ESTATÍSTICAS ═══════════════ -->
+## 📈 Estatísticas
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=VitorMelo19&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff9f1c&icon_color=1e90ff&text_color=c9d1d9&count_private=true" alt="Stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VitorMelo19&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff9f1c&text_color=c9d1d9" alt="Top Langs"/>
+
+<img src="https://streak-stats.demolab.com?user=VitorMelo19&theme=tokyonight&hide_border=true&background=0d1117&ring=ff9f1c&fire=ff9f1c&currStreakLabel=1e90ff" alt="Streak"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=VitorMelo19&bg_color=0d1117&color=ff9f1c&line=1e90ff&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph"/>
+
+</div>
+
+---
 <!-- ═══════════════ COBRINHA ANIMADA ═══════════════ -->
 ## 🐍 Minhas Contribuições
 
