@@ -31,9 +31,9 @@ jobs:
           OUT = os.environ.get("OUT", "dist/github-snake.svg")
 
           CELL, DOT, PAD = 14, 11, 22
-          STEP = 0.05          # segundos por casa
+          STEP = 0.02          # segundos por casa
           START_LEN = 4        # tamanho inicial da cobrinha
-          MAX_LEN = 34         # tamanho maximo depois de crescer
+          MAX_LEN = 35         # tamanho maximo depois de crescer
 
           EMPTY = "#161b22"
           FOOD = ["#5c3d10", "#9a6212", "#d9800f", "#ff9f1c"]
