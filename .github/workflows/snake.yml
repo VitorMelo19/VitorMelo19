@@ -16,13 +16,163 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Gerar snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+      - name: Gerar a cobrinha azul que cresce
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUT: dist/github-snake.svg
+        run: |
+          mkdir -p dist
+          python3 - <<'PYEOF'
+          import json, os, random, urllib.request
+
+          LOGIN = os.environ.get("GH_USER", "")
+          TOKEN = os.environ.get("GITHUB_TOKEN", "")
+          OUT = os.environ.get("OUT", "dist/github-snake.svg")
+
+          CELL, DOT, PAD = 14, 11, 22
+          STEP = 0.05          # segundos por casa
+          START_LEN = 4        # tamanho inicial da cobrinha
+          MAX_LEN = 34         # tamanho maximo depois de crescer
+
+          EMPTY = "#161b22"
+          FOOD = ["#5c3d10", "#9a6212", "#d9800f", "#ff9f1c"]
+
+
+          def fetch_weeks():
+              if os.environ.get("FAKE"):
+                  random.seed(3)
+                  return [[random.choice([0, 0, 0, 0, 1, 2, 4, 7]) for _ in range(7)] for _ in range(53)]
+              q = ("query($login:String!){user(login:$login){contributionsCollection{contributionCalendar"
+                   "{weeks{contributionDays{contributionCount weekday}}}}}}")
+              req = urllib.request.Request(
+                  "https://api.github.com/graphql",
+                  data=json.dumps({"query": q, "variables": {"login": LOGIN}}).encode(),
+                  headers={"Authorization": "bearer " + TOKEN, "Content-Type": "application/json",
+                           "User-Agent": "snake-gen"})
+              data = json.load(urllib.request.urlopen(req))
+              weeks = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+              grid = []
+              for w in weeks:
+                  col = [0] * 7
+                  for d in w["contributionDays"]:
+                      col[d["weekday"]] = d["contributionCount"]
+                  grid.append(col)
+              return grid
+
+
+          def level(c, mx):
+              if c == 0:
+                  return 0
+              r = c / mx
+              return 1 if r <= .25 else 2 if r <= .5 else 3 if r <= .75 else 4
+
+
+          def f(x):
+              return ("%.4f" % x).rstrip("0").rstrip(".")
+
+
+          grid = fetch_weeks()
+          W = len(grid)
+          mx = max(max(c) for c in grid) or 1
+
+          # percurso em zigue-zague, linha por linha (parece uma cobra de verdade)
+          cells = []
+          for row in range(7):
+              cols = range(W) if row % 2 == 0 else range(W - 1, -1, -1)
+              for col in cols:
+                  cells.append((col, row))
+          N = len(cells)
+          index_of = {cell: i for i, cell in enumerate(cells)}
+          eaten_idx = [i for i, (c, r) in enumerate(cells) if grid[c][r] > 0]
+          length = min(START_LEN + len(eaten_idx), MAX_LEN)
+          KMAX = length - 1
+
+          # extensao do caminho para a cobrinha sair da imagem
+          EXT = KMAX + 8
+          last_col, last_row = cells[-1]
+          pts = [(c, r) for c, r in cells] + [(last_col + j, last_row) for j in range(1, EXT + 1)]
+
+
+          def center(c, r):
+              return PAD + c * CELL + CELL / 2, PAD + r * CELL + CELL / 2
+
+
+          path = "M " + " L ".join("%s %s" % tuple(f(v) for v in center(c, r)) for c, r in pts)
+          T_total = (len(pts) - 1) * STEP
+          D = T_total + KMAX * STEP + 1.5
+          frac = T_total / D
+
+          width = PAD * 2 + W * CELL
+          height = PAD * 2 + 7 * CELL
+
+          o = []
+          o.append('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" width="%d" height="%d">' % (width, height, width, height))
+          o.append('<defs><linearGradient id="bd" x1="0" y1="0" x2="1" y2="0">'
+                   '<stop offset="0" stop-color="#1e90ff"/><stop offset="1" stop-color="#ff9f1c"/></linearGradient>'
+                   '<filter id="gl" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3"/></filter></defs>')
+          o.append('<rect x="1" y="1" width="%d" height="%d" rx="14" fill="#0d1117" stroke="url(#bd)" stroke-opacity=".55" stroke-width="1.5"/>' % (width - 2, height - 2))
+
+          # casas / comidinhas
+          off = (CELL - DOT) / 2
+          for c in range(W):
+              for r in range(7):
+                  cnt = grid[c][r]
+                  x, y = PAD + c * CELL + off, PAD + r * CELL + off
+                  lv = level(cnt, mx)
+                  base = EMPTY if lv == 0 else FOOD[lv - 1]
+                  o.append('<rect x="%s" y="%s" width="%d" height="%d" rx="3" fill="%s">' % (f(x), f(y), DOT, DOT, base))
+                  if lv:
+                      i = index_of[(c, r)]
+                      p = i * STEP / D
+                      o.append('<animate attributeName="fill" values="%s;%s;%s;%s" keyTimes="0;%s;%s;1" dur="%ss" repeatCount="indefinite"/>'
+                               % (base, base, EMPTY, EMPTY, f(max(p - .0015, 0)), f(p + .0015), f(D)))
+                  o.append('</rect>')
+
+          # corpo (do rabo para a cabeca, para a cabeca ficar por cima)
+          def motion(k, rot):
+              return ('<animateMotion path="%s" dur="%ss" begin="%ss" repeatCount="indefinite" calcMode="linear" '
+                      'keyPoints="0;1;1" keyTimes="0;%s;1"%s/>'
+                      % (path, f(D), f(k * STEP), f(frac), ' rotate="auto"' if rot else ''))
+
+
+          def appear(k):
+              if k < START_LEN:
+                  s = 0.0
+              else:
+                  s = max(eaten_idx[k - START_LEN] * STEP - k * STEP, 0.0)
+              return s
+
+
+          for k in range(KMAX, 0, -1):
+              t = k / KMAX if KMAX else 0
+              size = 12 - 4 * t
+              # degrade azul: perto da cabeca #3aa0ff -> rabo #0b4f94
+              a, b = (0x3a, 0xa0, 0xff), (0x0b, 0x4f, 0x94)
+              col = "#%02x%02x%02x" % tuple(int(a[j] + (b[j] - a[j]) * t) for j in range(3))
+              s = appear(k)
+              o.append('<g opacity="0">')
+              o.append('<rect x="%s" y="%s" width="%s" height="%s" rx="%s" fill="%s"/>' % (f(-size / 2), f(-size / 2), f(size), f(size), f(size / 3), col))
+              o.append(motion(k, False))
+              ps = s / D
+              o.append('<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;%s;%s;1" dur="%ss" begin="%ss" repeatCount="indefinite"/>'
+                       % (f(ps), f(ps + .0008), f(D), f(k * STEP)))
+              o.append('</g>')
+
+          # cabeca
+          o.append('<g>')
+          o.append('<circle r="9" fill="#1e90ff" opacity=".55" filter="url(#gl)"/>')
+          o.append('<rect x="-7" y="-7" width="14" height="14" rx="5" fill="#7fd0ff"/>')
+          o.append('<circle cx="3" cy="-3.2" r="2.2" fill="#fff"/><circle cx="3" cy="3.2" r="2.2" fill="#fff"/>')
+          o.append('<circle cx="3.8" cy="-3.2" r="1" fill="#0d1117"/><circle cx="3.8" cy="3.2" r="1" fill="#0d1117"/>')
+          o.append(motion(0, True))
+          o.append('</g>')
+          o.append('</svg>')
+
+          os.makedirs(os.path.dirname(OUT) or ".", exist_ok=True)
+          open(OUT, "w").write("\n".join(o))
+          print("ok", W, "colunas;", len(eaten_idx), "comidas; tamanho final", length, "; ciclo", round(D, 1), "s")
+          PYEOF
 
       - name: Publicar na branch output
         uses: crazy-max/ghaction-github-pages@v3.1.0
