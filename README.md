@@ -112,10 +112,10 @@ class VitorMelo:
 
 <div align="center">
 
-<a href="https://github.com/VitorMelo19/Ficcao-Criminal"><img src="assets/projetos/ficcao-criminal.svg" width="49%" alt="Ficção Criminal"/></a>
-<a href="https://github.com/VitorMelo19/ClickPet"><img src="assets/projetos/clickpet.svg" width="49%" alt="ClickPet"/></a>
-<a href="https://github.com/2024-2-NADS1/Projeto7"><img src="assets/projetos/sensor-incendios.svg" width="49%" alt="Sensor de Incêndios Inteligente"/></a>
-<a href="https://github.com/2025-1-NADS2/Projeto6"><img src="assets/projetos/projeto-6.svg" width="49%" alt="Projeto 6"/></a>
+<a href="https://github.com/VitorMelo19/Ficcao-Criminal"><img src="https://github.com/VitorMelo19/VitorMelo19/blob/main/assets/ficcao-criminal.svg" width="49%" alt="Ficção Criminal"/></a>
+<a href="https://github.com/VitorMelo19/ClickPet"><img src="https://github.com/VitorMelo19/VitorMelo19/blob/main/assets/clickpet.svg" width="49%" alt="ClickPet"/></a>
+<a href="https://github.com/2024-2-NADS1/Projeto7"><img src="https://github.com/VitorMelo19/VitorMelo19/blob/main/assets/sensor-incendios.svg" width="49%" alt="Sensor de Incêndios Inteligente"/></a>
+<a href="https://github.com/2025-1-NADS2/Projeto6"><img src="https://github.com/VitorMelo19/VitorMelo19/blob/main/assets/projeto-6.svg" width="49%" alt="Projeto 6"/></a>
 
 </div>
 
