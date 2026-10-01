@@ -9,8 +9,8 @@
 <br/>
 
 <a href="https://www.linkedin.com/in/oficialvitormelo"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:vitormelocursos@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://instagram.com/oficialvitormelo"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+<a href="mailto:vitormeloemprego@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://instagram.com/eae_vitormelo"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
 
 <br/>
 
@@ -83,14 +83,12 @@ class VitorMelo:
 
 | Área | Status | Progresso |
 |------|--------|-----------|
-| 🐍 Python & Dados | Em prática | ![](https://geps.dev/progress/70) |
-| 🗄️ SQL | Em prática | ![](https://geps.dev/progress/65) |
-| 📊 Power BI | Em prática | ![](https://geps.dev/progress/60) |
-| 🤖 Machine Learning | Estudando | ![](https://geps.dev/progress/40) |
-| ☁️ Cloud (AWS / Azure) | Estudando | ![](https://geps.dev/progress/35) |
-| 🔷 C# | Estudando | ![](https://geps.dev/progress/50) |
-
-<sub>*Ajuste os percentuais (o número no final do link) conforme seu progresso real.*</sub>
+| 🐍 Python & Dados | Em prática | ![](https://geps.dev/progress/85) |
+| 🗄️ SQL | Em prática | ![](https://geps.dev/progress/80) |
+| 📊 Power BI | Em prática | ![](https://geps.dev/progress/75) |
+| 🤖 Machine Learning | Estudando | ![](https://geps.dev/progress/50) |
+| ☁️ Cloud (AWS / Azure) | Estudando | ![](https://geps.dev/progress/60) |
+| 🔷 C# | Estudando | ![](https://geps.dev/progress/40) |
 
 ---
 
@@ -132,8 +130,6 @@ class VitorMelo:
 <img src="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/output/github-snake.svg" width="100%" alt="Cobrinha azul comendo as contribuições"/>
 
 </div>
-
-<sub>*A cobrinha cresce a cada contribuição que come. Atualiza sozinha a cada 12 horas.*</sub>
 
 ---
 
