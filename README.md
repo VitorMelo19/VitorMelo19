@@ -66,15 +66,8 @@
 <!-- ═══════════════ ESTATÍSTICAS ═══════════════ -->
 ## 📈 Estatísticas
 
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=VitorMelo19&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff9f1c&icon_color=1e90ff&text_color=c9d1d9&count_private=true" alt="Stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VitorMelo19&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff9f1c&text_color=c9d1d9" alt="Top Langs"/>
-
-<img src="https://streak-stats.demolab.com?user=VitorMelo19&theme=tokyonight&hide_border=true&background=0d1117&ring=ff9f1c&fire=ff9f1c&currStreakLabel=1e90ff" alt="Streak"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=VitorMelo19&bg_color=0d1117&color=ff9f1c&line=1e90ff&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph"/>
-
+<div align="center"> 
+  <img src="https://raw.githubusercontent.com/VitorMelo19/VitorMelo19/output/github-stats.svg" width="100%" alt="Estatísticas do GitHub"/> 
 </div>
 
 ---
