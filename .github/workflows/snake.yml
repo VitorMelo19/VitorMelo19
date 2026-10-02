@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Atualizar Perfil (cobrinha + estatisticas)
 
 on:
   schedule:
@@ -15,11 +15,12 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      GH_USER: ${{ github.repository_owner }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Gerar a cobrinha azul que cresce
         env:
-          GH_USER: ${{ github.repository_owner }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OUT: dist/github-snake.svg
         run: |
           mkdir -p dist
@@ -33,7 +34,7 @@ jobs:
           CELL, DOT, PAD = 14, 11, 22
           STEP = 0.05          # segundos por casa
           START_LEN = 4        # tamanho inicial da cobrinha
-          MAX_LEN = 35         # tamanho maximo depois de crescer
+          MAX_LEN = 34         # tamanho maximo depois de crescer
 
           EMPTY = "#161b22"
           FOOD = ["#5c3d10", "#9a6212", "#d9800f", "#ff9f1c"]
@@ -172,6 +173,292 @@ jobs:
           os.makedirs(os.path.dirname(OUT) or ".", exist_ok=True)
           open(OUT, "w").write("\n".join(o))
           print("ok", W, "colunas;", len(eaten_idx), "comidas; tamanho final", length, "; ciclo", round(D, 1), "s")
+          PYEOF
+
+      - name: Gerar o card de estatisticas
+        env:
+          OUT: dist/github-stats.svg
+        run: |
+          mkdir -p dist
+          python3 - <<'PYEOF'
+          import os, json, math, random, datetime as dt, urllib.request
+          from xml.sax.saxutils import escape
+
+          LOGIN = os.environ.get("GH_USER", "")
+          TOKEN = os.environ.get("GITHUB_TOKEN", "")
+          OUT = os.environ.get("OUT", "dist/github-stats.svg")
+          PREVIEW = bool(os.environ.get("PREVIEW"))
+          FAKE = bool(os.environ.get("FAKE"))
+
+          BLUE, ORANGE = "#1e90ff", "#ff9f1c"
+          FONT = "'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif"
+          MONO = "'JetBrains Mono', 'SFMono-Regular', Consolas, 'DejaVu Sans Mono', monospace"
+          MONTHS = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
+          FALLBACK = ["#1e90ff", "#ff9f1c", "#7fd0ff", "#ffd27a", "#19b8a6", "#8b949e"]
+
+
+          def fmt(n):
+              return f"{int(n):,}".replace(",", ".")
+
+
+          def fdate(d):
+              return f"{d.day} {MONTHS[d.month - 1]} {d.year}"
+
+
+          def gql(q, v):
+              req = urllib.request.Request(
+                  "https://api.github.com/graphql",
+                  data=json.dumps({"query": q, "variables": v}).encode(),
+                  headers={"Authorization": "bearer " + TOKEN, "Content-Type": "application/json", "User-Agent": "stats-gen"})
+              d = json.load(urllib.request.urlopen(req))
+              if d.get("errors") and not d.get("data"):
+                  raise SystemExit(str(d["errors"]))
+              return d["data"]
+
+
+          Q1 = """query($login:String!){user(login:$login){createdAt
+            repositories(first:100, ownerAffiliations:OWNER, isFork:false, privacy:PUBLIC){nodes{stargazerCount
+              languages(first:10, orderBy:{field:SIZE, direction:DESC}){edges{size node{name color}}}}}
+            contributionsCollection{totalCommitContributions totalPullRequestContributions totalIssueContributions}}}"""
+          Q2 = """query($login:String!,$from:DateTime!,$to:DateTime!){user(login:$login){contributionsCollection(from:$from,to:$to){
+            contributionCalendar{weeks{contributionDays{date contributionCount}}}}}}"""
+
+
+          def fetch():
+              now = dt.datetime.now(dt.timezone.utc).replace(tzinfo=None)
+              if FAKE:
+                  random.seed(5)
+                  created = dt.date(2024, 11, 6)
+                  days, d = {}, created
+                  while d <= now.date():
+                      days[d] = random.choice([0, 0, 0, 1, 1, 2, 5, 9]) if random.random() < .5 else 0
+                      d += dt.timedelta(days=1)
+                  repos = [{"stars": 0, "langs": [("JavaScript", 400, "#f1e05a"), ("CSS", 286, "#663399"), ("HTML", 222, "#e34c26"),
+                                                  ("Python", 53, "#3572A5"), ("Java", 32, "#b07219"), ("SCSS", 13, "#c6538c")]}]
+                  return dict(created=created, days=days, repos=repos, commits=175, prs=1, issues=13)
+              u = gql(Q1, {"login": LOGIN})["user"]
+              created = dt.datetime.strptime(u["createdAt"][:10], "%Y-%m-%d").date()
+              days = {}
+              for y in range(created.year, now.year + 1):
+                  to = min(now, dt.datetime(y, 12, 31, 23, 59, 59))
+                  cal = gql(Q2, {"login": LOGIN, "from": f"{y}-01-01T00:00:00Z", "to": to.strftime("%Y-%m-%dT%H:%M:%SZ")})
+                  for w in cal["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]:
+                      for x in w["contributionDays"]:
+                          days[dt.datetime.strptime(x["date"], "%Y-%m-%d").date()] = x["contributionCount"]
+              repos = []
+              for r in u["repositories"]["nodes"]:
+                  repos.append({"stars": r["stargazerCount"],
+                                "langs": [(e["node"]["name"], e["size"], e["node"]["color"]) for e in r["languages"]["edges"]]})
+              cc = u["contributionsCollection"]
+              return dict(created=created, days=days, repos=repos, commits=cc["totalCommitContributions"],
+                          prs=cc["totalPullRequestContributions"], issues=cc["totalIssueContributions"])
+
+
+          data = fetch()
+          today = dt.datetime.now(dt.timezone.utc).replace(tzinfo=None).date()
+          days = {d: c for d, c in data["days"].items() if d <= today}
+          dates = sorted(days)
+          if not dates:
+              dates = [today]; days = {today: 0}
+          last = dates[-1]
+          total = sum(days.values())
+          stars = sum(r["stars"] for r in data["repos"])
+
+          # ---- sequencias ----
+          longest, run, run_start, best = 0, 0, None, (None, None)
+          prev = None
+          for d in dates:
+              if days[d] > 0:
+                  if prev is not None and (d - prev).days == 1 and run > 0:
+                      run += 1
+                  else:
+                      run, run_start = 1, d
+                  if run > longest:
+                      longest, best = run, (run_start, d)
+              else:
+                  run = 0
+              prev = d
+          cur, i = 0, len(dates) - 1
+          if days[dates[i]] == 0:
+              i -= 1
+          while i >= 0 and days[dates[i]] > 0 and (i == len(dates) - 1 or (dates[i + 1] - dates[i]).days == 1):
+              cur += 1; i -= 1
+
+          # ---- linguagens ----
+          agg = {}
+          for r in data["repos"]:
+              for n, s, c in r["langs"]:
+                  a = agg.setdefault(n, [0, c])
+                  a[0] += s
+                  if not a[1] and c: a[1] = c
+          tot_b = sum(v[0] for v in agg.values()) or 1
+          langs = sorted(((n, v[0], v[1]) for n, v in agg.items()), key=lambda x: -x[1])
+          top = langs[:6]
+          rest = sum(x[1] for x in langs[6:])
+          if rest:
+              top = langs[:5] + [("Outras", rest + sum(x[1] for x in langs[5:6]), "#8b949e")]
+          top = [(n, b / tot_b * 100, c or FALLBACK[i % len(FALLBACK)]) for i, (n, b, c) in enumerate(top)]
+
+          # ---- serie semanal (ultimos 12 meses) ----
+          start = last - dt.timedelta(days=363)
+          weeks = []
+          for w in range(52):
+              s = start + dt.timedelta(days=7 * w)
+              weeks.append((s, sum(days.get(s + dt.timedelta(days=k), 0) for k in range(7))))
+
+          # ---------------- desenho ----------------
+          W = 840
+          H = 538
+          o = []
+
+
+          def anim_in(t0, dy=8):
+              if PREVIEW: return ""
+              return (f'<animate attributeName="opacity" from="0" to="1" begin="{t0:.2f}s" dur="0.4s" fill="freeze"/>'
+                      f'<animateTransform attributeName="transform" type="translate" from="0 {dy}" to="0 0" begin="{t0:.2f}s" dur="0.4s" fill="freeze"/>')
+
+
+          def op():
+              return "" if PREVIEW else ' opacity="0"'
+
+
+          per = int(2 * ((W - 4) + (H - 4))); dash = max(170, int(per * .12))
+          o.append(f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">
+          <defs>
+            <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{BLUE}"/><stop offset="1" stop-color="{ORANGE}"/></linearGradient>
+            <linearGradient id="top" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{BLUE}" stop-opacity=".16"/><stop offset="1" stop-color="{BLUE}" stop-opacity="0"/></linearGradient>
+            <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{ORANGE}"/><stop offset="1" stop-color="#ffd27a"/></linearGradient>
+            <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="52" y1="0" x2="788" y2="0"><stop offset="0" stop-color="{BLUE}"/><stop offset="1" stop-color="{ORANGE}"/></linearGradient>
+            <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{BLUE}" stop-opacity=".30"/><stop offset="1" stop-color="{BLUE}" stop-opacity="0"/></linearGradient>
+            <clipPath id="cp"><rect x="2" y="2" width="{W-4}" height="{H-4}" rx="14"/></clipPath>
+          </defs>
+          <rect x="2" y="2" width="{W-4}" height="{H-4}" rx="14" fill="#0d1117"/>
+          <g clip-path="url(#cp)">
+            <rect x="2" y="2" width="{W-4}" height="90" fill="url(#top)"/>
+            <circle cx="{W-30}" cy="30" r="70" fill="{ORANGE}" opacity=".06"/>
+          </g>
+          <rect x="2" y="2" width="{W-4}" height="{H-4}" rx="14" fill="none" stroke="#21262d" stroke-width="1.5"/>
+          <rect x="2" y="2" width="{W-4}" height="{H-4}" rx="14" fill="none" stroke="url(#g)" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="{dash} {per}">
+            <animate attributeName="stroke-dashoffset" from="0" to="-{per+dash}" dur="7s" repeatCount="indefinite"/>
+          </rect>
+          <circle cx="28" cy="26" r="5.5" fill="{BLUE}"/><circle cx="46" cy="26" r="5.5" fill="{ORANGE}"/><circle cx="64" cy="26" r="5.5" fill="#3a4452"/>
+          <text x="86" y="30" font-family="{MONO}" font-size="12" fill="#6e7681">stats.json</text>
+          <text x="{W-26}" y="30" text-anchor="end" font-family="{MONO}" font-size="11" font-weight="700" letter-spacing="2" fill="{ORANGE}">ESTATÍSTICAS</text>
+          <line x1="2" y1="46" x2="{W-2}" y2="46" stroke="#21262d"/>''')
+
+          # --- tiles ---
+          tiles = [("COMMITS", data["commits"], "último ano", BLUE), ("CONTRIBUIÇÕES", total, "desde " + fdate(data["created"]), ORANGE),
+                   ("PULL REQUESTS", data["prs"], "último ano", BLUE), ("ISSUES", data["issues"], "último ano", ORANGE),
+                   ("ESTRELAS", stars, "repos públicos", BLUE)]
+          for i, (lab, val, sub, col) in enumerate(tiles):
+              x = 28 + i * 160
+              o.append(f'<g{op()}><rect x="{x}" y="64" width="148" height="86" rx="12" fill="#11161d" stroke="#21262d"/>'
+                       f'<rect x="{x}" y="80" width="3" height="54" rx="1.5" fill="{col}"/>'
+                       f'<text x="{x+18}" y="88" font-family="{MONO}" font-size="10" font-weight="700" letter-spacing="1.4" fill="#8b949e">{lab}</text>'
+                       f'<text x="{x+18}" y="122" font-family="{FONT}" font-size="30" font-weight="700" fill="{col}">{fmt(val)}</text>'
+                       f'<text x="{x+18}" y="140" font-family="{FONT}" font-size="11" fill="#6e7681">{escape(sub)}</text>{anim_in(0.2 + 0.1 * i)}</g>')
+
+          # --- painel: sequencia ---
+          px, py, pw, ph = 28, 166, 300, 184
+          o.append(f'<g{op()}><rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="12" fill="#11161d" stroke="#21262d"/>'
+                   f'<text x="{px+18}" y="{py+28}" font-family="{MONO}" font-size="10" font-weight="700" letter-spacing="1.6" fill="#8b949e">SEQUÊNCIA DE DIAS</text>{anim_in(0.7)}</g>')
+          cx, cy, r = px + 84, py + 106, 46
+          circ = 2 * math.pi * r
+          frac = min(cur / longest, 1) if longest else 0
+          off = circ * (1 - frac)
+          o.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="#1b222b" stroke-width="9"/>')
+          if frac > 0:
+              if PREVIEW:
+                  o.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="url(#ring)" stroke-width="9" stroke-linecap="round" stroke-dasharray="{circ:.1f}" stroke-dashoffset="{off:.1f}" transform="rotate(-90 {cx} {cy})"/>')
+              else:
+                  o.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="url(#ring)" stroke-width="9" stroke-linecap="round" stroke-dasharray="{circ:.1f}" stroke-dashoffset="{circ:.1f}" transform="rotate(-90 {cx} {cy})">'
+                           f'<animate attributeName="stroke-dashoffset" from="{circ:.1f}" to="{off:.1f}" begin="0.9s" dur="1.4s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .7 .2 1"/></circle>')
+          o.append(f'<text x="{cx}" y="{cy+8}" text-anchor="middle" font-family="{FONT}" font-size="30" font-weight="700" fill="{ORANGE}">{cur}</text>')
+          o.append(f'<text x="{cx}" y="{cy+25}" text-anchor="middle" font-family="{MONO}" font-size="9" letter-spacing="1" fill="#6e7681">DIAS</text>')
+          o.append(f'<text x="{cx}" y="{py+ph-14}" text-anchor="middle" font-family="{MONO}" font-size="10" font-weight="700" letter-spacing="1.4" fill="{ORANGE}">ATUAL</text>')
+          lx = px + 168
+          o.append(f'<text x="{lx}" y="{py+78}" font-family="{MONO}" font-size="10" font-weight="700" letter-spacing="1.4" fill="#8b949e">MAIOR SEQUÊNCIA</text>')
+          o.append(f'<text x="{lx}" y="{py+114}" font-family="{FONT}" font-size="30" font-weight="700" fill="{BLUE}">{longest}<tspan font-size="13" font-weight="600" fill="#6e7681"> dias</tspan></text>')
+          if longest:
+              o.append(f'<text x="{lx}" y="{py+134}" font-family="{FONT}" font-size="10.5" fill="#6e7681">{escape(fdate(best[0]))}</text>')
+              o.append(f'<text x="{lx}" y="{py+149}" font-family="{FONT}" font-size="10.5" fill="#6e7681">até {escape(fdate(best[1]))}</text>')
+          else:
+              o.append(f'<text x="{lx}" y="{py+134}" font-family="{FONT}" font-size="10.5" fill="#6e7681">—</text>')
+
+          # --- painel: linguagens ---
+          qx, qy, qw, qh = 344, 166, 468, 184
+          o.append(f'<g{op()}><rect x="{qx}" y="{qy}" width="{qw}" height="{qh}" rx="12" fill="#11161d" stroke="#21262d"/>'
+                   f'<text x="{qx+18}" y="{qy+28}" font-family="{MONO}" font-size="10" font-weight="700" letter-spacing="1.6" fill="#8b949e">LINGUAGENS MAIS USADAS</text>{anim_in(0.8)}</g>')
+          bx, by, bw = qx + 18, qy + 44, qw - 36
+          o.append(f'<clipPath id="barclip2"><rect x="{bx}" y="{by}" width="{bw}" height="12" rx="6"/></clipPath>')
+          o.append(f'<g clip-path="url(#barclip2)"><rect x="{bx}" y="{by}" width="{bw}" height="12" fill="#1b222b"/>')
+          acc = bx
+          ptot = sum(p for _, p, _ in top) or 1
+          for n, p, c in top:
+              w = bw * p / ptot
+              o.append(f'<rect x="{acc:.1f}" y="{by}" width="{max(w-1.5,1):.1f}" height="12" fill="{c}"/>')
+              acc += w
+          if not PREVIEW:
+              o.append(f'<rect x="{bx}" y="{by-1}" width="{bw}" height="14" fill="#11161d"><animate attributeName="x" from="{bx}" to="{bx+bw}" begin="1.0s" dur="1.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .7 .2 1"/>'
+                       f'<animate attributeName="width" from="{bw}" to="0" begin="1.0s" dur="1.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .7 .2 1"/></rect>')
+          o.append('</g>')
+          for i, (n, p, c) in enumerate(top):
+              col, row = i % 2, i // 2
+              x = bx + col * 224
+              y = by + 44 + row * 30
+              o.append(f'<g{op()}><circle cx="{x+5}" cy="{y-4}" r="5" fill="{c}"/>'
+                       f'<text x="{x+18}" y="{y}" font-family="{FONT}" font-size="13" font-weight="600" fill="#e6edf3">{escape(n)}</text>'
+                       f'<text x="{x+200}" y="{y}" text-anchor="end" font-family="{MONO}" font-size="12" fill="#8b949e">{p:.1f}%</text>{anim_in(1.2 + 0.08 * i, 6)}</g>')
+
+          # --- grafico ---
+          gx, gy, gw, gh = 28, 366, 784, 152
+          o.append(f'<g{op()}><rect x="{gx}" y="{gy}" width="{gw}" height="{gh}" rx="12" fill="#11161d" stroke="#21262d"/>'
+                   f'<text x="{gx+18}" y="{gy+28}" font-family="{MONO}" font-size="10" font-weight="700" letter-spacing="1.6" fill="#8b949e">CONTRIBUIÇÕES · ÚLTIMOS 12 MESES</text>{anim_in(1.0)}</g>')
+          x0, x1, ytop, ybot = 52, 788, gy + 62, gy + 114
+          vals = [v for _, v in weeks]
+          m = max(vals) or 1
+          n = len(vals)
+          pts = [(x0 + i * (x1 - x0) / (n - 1), ybot - (v / m) * (ybot - ytop)) for i, v in enumerate(vals)]
+
+
+          def smooth(p):
+              d = f"M{p[0][0]:.1f} {p[0][1]:.1f}"
+              cl = lambda y: min(max(y, ytop), ybot)
+              for i in range(len(p) - 1):
+                  p0 = p[i - 1] if i > 0 else p[i]; p1 = p[i]; p2 = p[i + 1]; p3 = p[i + 2] if i + 2 < len(p) else p2
+                  c1 = (p1[0] + (p2[0] - p0[0]) / 6, cl(p1[1] + (p2[1] - p0[1]) / 6))
+                  c2 = (p2[0] - (p3[0] - p1[0]) / 6, cl(p2[1] - (p3[1] - p1[1]) / 6))
+                  d += f" C{c1[0]:.1f} {c1[1]:.1f} {c2[0]:.1f} {c2[1]:.1f} {p2[0]:.1f} {p2[1]:.1f}"
+              return d
+
+
+          for k in range(3):
+              yy = ybot - k * (ybot - ytop) / 2
+              o.append(f'<line x1="{x0}" y1="{yy:.1f}" x2="{x1}" y2="{yy:.1f}" stroke="#1b222b" stroke-dasharray="3 5"/>')
+          sp = smooth(pts)
+          area = sp + f" L{x1} {ybot} L{x0} {ybot} Z"
+          o.append(f'<path d="{area}" fill="url(#area)"{op()}>' + ('' if PREVIEW else '<animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="1s" fill="freeze"/>') + '</path>')
+          if PREVIEW:
+              o.append(f'<path d="{sp}" fill="none" stroke="url(#line)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>')
+          else:
+              o.append(f'<path d="{sp}" fill="none" stroke="url(#line)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">'
+                       f'<animate attributeName="stroke-dashoffset" from="1" to="0" begin="1.2s" dur="2.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .2 1"/></path>')
+          pi = vals.index(m)
+          px_, py_ = pts[pi]
+          o.append(f'<g{op()}><circle cx="{px_:.1f}" cy="{py_:.1f}" r="4.5" fill="{ORANGE}" stroke="#0d1117" stroke-width="2"/>'
+                   f'<text x="{min(max(px_, x0+30), x1-30):.1f}" y="{max(py_-12, gy+40):.1f}" text-anchor="middle" font-family="{MONO}" font-size="10" font-weight="700" fill="{ORANGE}">{m} na semana</text>'
+                   + ('' if PREVIEW else f'<animate attributeName="opacity" from="0" to="1" begin="3.2s" dur="0.4s" fill="freeze"/>') + '</g>')
+          last_m = None
+          for i, (s, v) in enumerate(weeks):
+              if s.month != last_m:
+                  last_m = s.month
+                  if pts[i][0] < x1 - 14:
+                      o.append(f'<text x="{pts[i][0]:.1f}" y="{ybot+18}" text-anchor="middle" font-family="{MONO}" font-size="10" fill="#6e7681">{MONTHS[s.month-1]}</text>')
+
+          o.append('</svg>')
+          os.makedirs(os.path.dirname(OUT) or ".", exist_ok=True)
+          open(OUT, "w").write("\n".join(o))
+          print("ok stats:", total, "contribuicoes; atual", cur, "maior", longest, "; linguagens", [(n, round(p, 1)) for n, p, _ in top][:3])
           PYEOF
 
       - name: Publicar na branch output
