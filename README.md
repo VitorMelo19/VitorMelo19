@@ -34,19 +34,8 @@
 <!-- ═══════════════ STACK ═══════════════ -->
 ## ⚙️ Stack & Ferramentas
 
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=py,cs,cpp,html,css,js,sql&perline=7" alt="Linguagens"/>
-<br/>
-<img src="https://skillicons.dev/icons?i=azure,aws,git,github,vscode,visualstudio,unity,ps&perline=8" alt="Ferramentas"/>
-
-<br/><br/>
-
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF9F1C?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
-
+<div align="center"> 
+  <img src="assets/stack-ferramentas.svg" width="100%" alt="Stack e ferramentas"/> 
 </div>
 
 ---
@@ -54,7 +43,9 @@
 <!-- ═══════════════ TRILHA DE APRENDIZADO ═══════════════ -->
 ## 🚀 Trilha de Evolução
 
-<div align="center"> <img src="assets/trilha-evolucao.svg" width="88%" alt="Trilha de evolução"/> </div>
+<div align="center"> 
+  <img src="assets/trilha-evolucao.svg" width="88%" alt="Trilha de evolução"/> 
+</div>
 
 ---
 
@@ -63,10 +54,10 @@
 
 <div align="center">
 
-<a href="https://github.com/VitorMelo19/Ficcao-Criminal"><img src="https://github.com/VitorMelo19/VitorMelo19/blob/main/assets/ficcao-criminal.svg" width="49%" alt="Ficção Criminal"/></a>
-<a href="https://github.com/VitorMelo19/ClickPet"><img src="https://github.com/VitorMelo19/VitorMelo19/blob/main/assets/clickpet.svg" width="49%" alt="ClickPet"/></a>
-<a href="https://github.com/2024-2-NADS1/Projeto7"><img src="https://github.com/VitorMelo19/VitorMelo19/blob/main/assets/sensor-incendios.svg" width="49%" alt="Sensor de Incêndios Inteligente"/></a>
-<a href="https://github.com/2025-1-NADS2/Projeto6"><img src="https://github.com/VitorMelo19/VitorMelo19/blob/main/assets/projeto-6.svg" width="49%" alt="Projeto 6"/></a>
+<a href="https://github.com/VitorMelo19/Ficcao-Criminal"><img src="assets/ficcao-criminal.svg" width="49%" alt="Ficção Criminal"/></a>
+<a href="https://github.com/VitorMelo19/ClickPet"><img src="assets/clickpet.svg" width="49%" alt="ClickPet"/></a>
+<a href="https://github.com/2024-2-NADS1/Projeto7"><img src="assets/sensor-incendios.svg" width="49%" alt="Sensor de Incêndios Inteligente"/></a>
+<a href="https://github.com/2025-1-NADS2/Projeto6"><img src="assets/projeto-6.svg" width="49%" alt="Projeto 6"/></a>
 
 </div>
 
