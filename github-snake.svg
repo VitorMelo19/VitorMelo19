@@ -1,0 +1,870 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 786 142" width="786" height="142">
+<defs><linearGradient id="bd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1e90ff"/><stop offset="1" stop-color="#ff9f1c"/></linearGradient><filter id="gl" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3"/></filter></defs>
+<rect x="1" y="1" width="784" height="140" rx="14" fill="#0d1117" stroke="url(#bd)" stroke-opacity=".55" stroke-width="1.5"/>
+<rect x="23.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="23.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="23.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="23.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="23.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="23.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="23.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="37.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="37.5" y="37.5" width="11" height="11" rx="3" fill="#5c3d10">
+<animate attributeName="fill" values="#5c3d10;#5c3d10;#161b22;#161b22" keyTimes="0;0.2306;0.2336;1" dur="22.4s" repeatCount="indefinite"/>
+</rect>
+<rect x="37.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="37.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="37.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="37.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="37.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="51.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="51.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="51.5" y="51.5" width="11" height="11" rx="3" fill="#5c3d10">
+<animate attributeName="fill" values="#5c3d10;#5c3d10;#161b22;#161b22" keyTimes="0;0.2396;0.2426;1" dur="22.4s" repeatCount="indefinite"/>
+</rect>
+<rect x="51.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="51.5" y="79.5" width="11" height="11" rx="3" fill="#5c3d10">
+<animate attributeName="fill" values="#5c3d10;#5c3d10;#161b22;#161b22" keyTimes="0;0.4762;0.4792;1" dur="22.4s" repeatCount="indefinite"/>
+</rect>
+<rect x="51.5" y="93.5" width="11" height="11" rx="3" fill="#5c3d10">
+<animate attributeName="fill" values="#5c3d10;#5c3d10;#161b22;#161b22" keyTimes="0;0.7016;0.7046;1" dur="22.4s" repeatCount="indefinite"/>
+</rect>
+<rect x="51.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="65.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="65.5" y="37.5" width="11" height="11" rx="3" fill="#5c3d10">
+<animate attributeName="fill" values="#5c3d10;#5c3d10;#161b22;#161b22" keyTimes="0;0.2262;0.2292;1" dur="22.4s" repeatCount="indefinite"/>
+</rect>
+<rect x="65.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="65.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="65.5" y="79.5" width="11" height="11" rx="3" fill="#5c3d10">
+<animate attributeName="fill" values="#5c3d10;#5c3d10;#161b22;#161b22" keyTimes="0;0.4784;0.4814;1" dur="22.4s" repeatCount="indefinite"/>
+</rect>
+<rect x="65.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="65.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="79.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="79.5" y="37.5" width="11" height="11" rx="3" fill="#5c3d10">
+<animate attributeName="fill" values="#5c3d10;#5c3d10;#161b22;#161b22" keyTimes="0;0.2239;0.2269;1" dur="22.4s" repeatCount="indefinite"/>
+</rect>
+<rect x="79.5" y="51.5" width="11" height="11" rx="3" fill="#5c3d10">
+<animate attributeName="fill" values="#5c3d10;#5c3d10;#161b22;#161b22" keyTimes="0;0.244;0.247;1" dur="22.4s" repeatCount="indefinite"/>
+</rect>
+<rect x="79.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="79.5" y="79.5" width="11" height="11" rx="3" fill="#5c3d10">
+<animate attributeName="fill" values="#5c3d10;#5c3d10;#161b22;#161b22" keyTimes="0;0.4806;0.4836;1" dur="22.4s" repeatCount="indefinite"/>
+</rect>
+<rect x="79.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="79.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="93.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="93.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="93.5" y="51.5" width="11" height="11" rx="3" fill="#5c3d10">
+<animate attributeName="fill" values="#5c3d10;#5c3d10;#161b22;#161b22" keyTimes="0;0.2463;0.2493;1" dur="22.4s" repeatCount="indefinite"/>
+</rect>
+<rect x="93.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="93.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="93.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="93.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="107.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="107.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="107.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="107.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="107.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="107.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="107.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="121.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="121.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="121.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="121.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="121.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="121.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="121.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="135.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="135.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="135.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="135.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="135.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="135.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="135.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="149.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="149.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="149.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="149.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="149.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="149.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="149.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="163.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="163.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="163.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="163.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="163.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="163.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="163.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="177.5" y="23.5" width="11" height="11" rx="3" fill="#5c3d10">
+<animate attributeName="fill" values="#5c3d10;#5c3d10;#161b22;#161b22" keyTimes="0;0.0231;0.0261;1" dur="22.4s" repeatCount="indefinite"/>
+</rect>
+<rect x="177.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="177.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="177.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="177.5" y="79.5" width="11" height="11" rx="3" fill="#5c3d10">
+<animate attributeName="fill" values="#5c3d10;#5c3d10;#161b22;#161b22" keyTimes="0;0.4963;0.4993;1" dur="22.4s" repeatCount="indefinite"/>
+</rect>
+<rect x="177.5" y="93.5" width="11" height="11" rx="3" fill="#5c3d10">
+<animate attributeName="fill" values="#5c3d10;#5c3d10;#161b22;#161b22" keyTimes="0;0.6815;0.6845;1" dur="22.4s" repeatCount="indefinite"/>
+</rect>
+<rect x="177.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="191.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="191.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="191.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="191.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="191.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="191.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="191.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="205.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="205.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="205.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="205.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="205.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="205.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="205.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="219.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="219.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="219.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="219.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="219.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="219.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="219.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="233.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="233.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="233.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="233.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="233.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="233.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="233.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="247.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="247.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="247.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="247.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="247.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="247.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="247.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="261.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="261.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="261.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="261.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="261.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="261.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="261.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="275.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="275.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="275.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="275.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="275.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="275.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="275.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="289.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="289.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="289.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="289.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="289.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="289.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="289.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="303.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="303.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="303.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="303.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="303.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="303.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="303.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="317.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="317.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="317.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="317.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="317.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="317.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="317.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="331.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="331.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="331.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="331.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="331.5" y="79.5" width="11" height="11" rx="3" fill="#5c3d10">
+<animate attributeName="fill" values="#5c3d10;#5c3d10;#161b22;#161b22" keyTimes="0;0.5208;0.5238;1" dur="22.4s" repeatCount="indefinite"/>
+</rect>
+<rect x="331.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="331.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="345.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="345.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="345.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="345.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="345.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="345.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="345.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="359.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="359.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="359.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="359.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="359.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="359.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="359.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="373.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="373.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="373.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="373.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="373.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="373.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="373.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="387.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="387.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="387.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="387.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="387.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="387.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="387.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="401.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="401.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="401.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="401.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="401.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="401.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="401.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="415.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="415.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="415.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="415.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="415.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="415.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="415.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="429.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="429.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="429.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="429.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="429.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="429.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="429.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="443.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="443.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="443.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="443.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="443.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="443.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="443.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="457.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="457.5" y="37.5" width="11" height="11" rx="3" fill="#5c3d10">
+<animate attributeName="fill" values="#5c3d10;#5c3d10;#161b22;#161b22" keyTimes="0;0.1637;0.1667;1" dur="22.4s" repeatCount="indefinite"/>
+</rect>
+<rect x="457.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="457.5" y="65.5" width="11" height="11" rx="3" fill="#5c3d10">
+<animate attributeName="fill" values="#5c3d10;#5c3d10;#161b22;#161b22" keyTimes="0;0.4003;0.4033;1" dur="22.4s" repeatCount="indefinite"/>
+</rect>
+<rect x="457.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="457.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="457.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="471.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="471.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="471.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="471.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="471.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="471.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="471.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="485.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="485.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="485.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="485.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="485.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="485.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="485.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="499.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="499.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="499.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="499.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="499.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="499.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="499.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="513.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="513.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="513.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="513.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="513.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="513.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="513.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="527.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="527.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="527.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="527.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="527.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="527.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="527.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="541.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="541.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="541.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="541.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="541.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="541.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="541.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="555.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="555.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="555.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="555.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="555.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="555.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="555.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="569.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="569.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="569.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="569.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="569.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="569.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="569.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="583.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="583.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="583.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="583.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="583.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="583.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="583.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="597.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="597.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="597.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="597.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="597.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="597.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="597.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="611.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="611.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="611.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="611.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="611.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="611.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="611.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="625.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="625.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="625.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="625.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="625.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="625.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="625.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="639.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="639.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="639.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="639.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="639.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="639.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="639.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="653.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="653.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="653.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="653.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="653.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="653.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="653.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="667.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="667.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="667.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="667.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="667.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="667.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="667.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="681.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="681.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="681.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="681.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="681.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="681.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="681.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="695.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="695.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="695.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="695.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="695.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="695.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="695.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="709.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="709.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="709.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="709.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="709.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="709.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="709.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="723.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="723.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="723.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="723.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="723.5" y="79.5" width="11" height="11" rx="3" fill="#ff9f1c">
+<animate attributeName="fill" values="#ff9f1c;#ff9f1c;#161b22;#161b22" keyTimes="0;0.5833;0.5863;1" dur="22.4s" repeatCount="indefinite"/>
+</rect>
+<rect x="723.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="723.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="737.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="737.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="737.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="737.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="737.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="737.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="737.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="751.5" y="23.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="751.5" y="37.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="751.5" y="51.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="751.5" y="65.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="751.5" y="79.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="751.5" y="93.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<rect x="751.5" y="107.5" width="11" height="11" rx="3" fill="#161b22">
+</rect>
+<g opacity="0">
+<rect x="-4" y="-4" width="8" height="8" rx="2.6667" fill="#0b4f94"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="1s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6585;0.6593;1" dur="22.4s" begin="1s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="-4.1" y="-4.1" width="8.2" height="8.2" rx="2.7333" fill="#0d5399"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0.95s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6406;0.6414;1" dur="22.4s" begin="0.95s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="-4.2" y="-4.2" width="8.4" height="8.4" rx="2.8" fill="#0f579e"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0.9s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5446;0.5454;1" dur="22.4s" begin="0.9s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="-4.3" y="-4.3" width="8.6" height="8.6" rx="2.8667" fill="#125ba4"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0.85s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4844;0.4852;1" dur="22.4s" begin="0.85s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="-4.4" y="-4.4" width="8.8" height="8.8" rx="2.9333" fill="#145fa9"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0.8s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4621;0.4629;1" dur="22.4s" begin="0.8s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="-4.5" y="-4.5" width="9" height="9" rx="3" fill="#1663ae"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0.75s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4487;0.4495;1" dur="22.4s" begin="0.75s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="-4.6" y="-4.6" width="9.2" height="9.2" rx="3.0667" fill="#1967b4"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0.7s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4487;0.4495;1" dur="22.4s" begin="0.7s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="-4.7" y="-4.7" width="9.4" height="9.4" rx="3.1333" fill="#1b6bb9"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0.65s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4487;0.4495;1" dur="22.4s" begin="0.65s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="-4.8" y="-4.8" width="9.6" height="9.6" rx="3.2" fill="#1d6fbe"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0.6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.375;0.3758;1" dur="22.4s" begin="0.6s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="-4.9" y="-4.9" width="9.8" height="9.8" rx="3.2667" fill="#2073c4"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0.55s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2232;0.224;1" dur="22.4s" begin="0.55s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="-5" y="-5" width="10" height="10" rx="3.3333" fill="#2277c9"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0.5s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2232;0.224;1" dur="22.4s" begin="0.5s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="-5.1" y="-5.1" width="10.2" height="10.2" rx="3.4" fill="#247bce"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0.45s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.221;0.2218;1" dur="22.4s" begin="0.45s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="-5.2" y="-5.2" width="10.4" height="10.4" rx="3.4667" fill="#277fd4"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2143;0.2151;1" dur="22.4s" begin="0.4s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="-5.3" y="-5.3" width="10.6" height="10.6" rx="3.5333" fill="#2983d9"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0.35s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2121;0.2129;1" dur="22.4s" begin="0.35s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="-5.4" y="-5.4" width="10.8" height="10.8" rx="3.6" fill="#2b87de"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0.3s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2121;0.2129;1" dur="22.4s" begin="0.3s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="-5.5" y="-5.5" width="11" height="11" rx="3.6667" fill="#2e8be4"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0.25s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.154;0.1548;1" dur="22.4s" begin="0.25s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="-5.6" y="-5.6" width="11.2" height="11.2" rx="3.7333" fill="#308fe9"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0.2s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0156;0.0164;1" dur="22.4s" begin="0.2s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="-5.7" y="-5.7" width="11.4" height="11.4" rx="3.8" fill="#3293ee"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0.15s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0;0.0008;1" dur="22.4s" begin="0.15s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="-5.8" y="-5.8" width="11.6" height="11.6" rx="3.8667" fill="#3597f4"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0.1s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0;0.0008;1" dur="22.4s" begin="0.1s" repeatCount="indefinite"/>
+</g>
+<g opacity="0">
+<rect x="-5.9" y="-5.9" width="11.8" height="11.8" rx="3.9333" fill="#379bf9"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0.05s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1"/>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0;0.0008;1" dur="22.4s" begin="0.05s" repeatCount="indefinite"/>
+</g>
+<g>
+<circle r="9" fill="#1e90ff" opacity=".55" filter="url(#gl)"/>
+<rect x="-7" y="-7" width="14" height="14" rx="5" fill="#7fd0ff"/>
+<circle cx="3" cy="-3.2" r="2.2" fill="#fff"/><circle cx="3" cy="3.2" r="2.2" fill="#fff"/>
+<circle cx="3.8" cy="-3.2" r="1" fill="#0d1117"/><circle cx="3.8" cy="3.2" r="1" fill="#0d1117"/>
+<animateMotion path="M 29 29 L 43 29 L 57 29 L 71 29 L 85 29 L 99 29 L 113 29 L 127 29 L 141 29 L 155 29 L 169 29 L 183 29 L 197 29 L 211 29 L 225 29 L 239 29 L 253 29 L 267 29 L 281 29 L 295 29 L 309 29 L 323 29 L 337 29 L 351 29 L 365 29 L 379 29 L 393 29 L 407 29 L 421 29 L 435 29 L 449 29 L 463 29 L 477 29 L 491 29 L 505 29 L 519 29 L 533 29 L 547 29 L 561 29 L 575 29 L 589 29 L 603 29 L 617 29 L 631 29 L 645 29 L 659 29 L 673 29 L 687 29 L 701 29 L 715 29 L 729 29 L 743 29 L 757 29 L 757 43 L 743 43 L 729 43 L 715 43 L 701 43 L 687 43 L 673 43 L 659 43 L 645 43 L 631 43 L 617 43 L 603 43 L 589 43 L 575 43 L 561 43 L 547 43 L 533 43 L 519 43 L 505 43 L 491 43 L 477 43 L 463 43 L 449 43 L 435 43 L 421 43 L 407 43 L 393 43 L 379 43 L 365 43 L 351 43 L 337 43 L 323 43 L 309 43 L 295 43 L 281 43 L 267 43 L 253 43 L 239 43 L 225 43 L 211 43 L 197 43 L 183 43 L 169 43 L 155 43 L 141 43 L 127 43 L 113 43 L 99 43 L 85 43 L 71 43 L 57 43 L 43 43 L 29 43 L 29 57 L 43 57 L 57 57 L 71 57 L 85 57 L 99 57 L 113 57 L 127 57 L 141 57 L 155 57 L 169 57 L 183 57 L 197 57 L 211 57 L 225 57 L 239 57 L 253 57 L 267 57 L 281 57 L 295 57 L 309 57 L 323 57 L 337 57 L 351 57 L 365 57 L 379 57 L 393 57 L 407 57 L 421 57 L 435 57 L 449 57 L 463 57 L 477 57 L 491 57 L 505 57 L 519 57 L 533 57 L 547 57 L 561 57 L 575 57 L 589 57 L 603 57 L 617 57 L 631 57 L 645 57 L 659 57 L 673 57 L 687 57 L 701 57 L 715 57 L 729 57 L 743 57 L 757 57 L 757 71 L 743 71 L 729 71 L 715 71 L 701 71 L 687 71 L 673 71 L 659 71 L 645 71 L 631 71 L 617 71 L 603 71 L 589 71 L 575 71 L 561 71 L 547 71 L 533 71 L 519 71 L 505 71 L 491 71 L 477 71 L 463 71 L 449 71 L 435 71 L 421 71 L 407 71 L 393 71 L 379 71 L 365 71 L 351 71 L 337 71 L 323 71 L 309 71 L 295 71 L 281 71 L 267 71 L 253 71 L 239 71 L 225 71 L 211 71 L 197 71 L 183 71 L 169 71 L 155 71 L 141 71 L 127 71 L 113 71 L 99 71 L 85 71 L 71 71 L 57 71 L 43 71 L 29 71 L 29 85 L 43 85 L 57 85 L 71 85 L 85 85 L 99 85 L 113 85 L 127 85 L 141 85 L 155 85 L 169 85 L 183 85 L 197 85 L 211 85 L 225 85 L 239 85 L 253 85 L 267 85 L 281 85 L 295 85 L 309 85 L 323 85 L 337 85 L 351 85 L 365 85 L 379 85 L 393 85 L 407 85 L 421 85 L 435 85 L 449 85 L 463 85 L 477 85 L 491 85 L 505 85 L 519 85 L 533 85 L 547 85 L 561 85 L 575 85 L 589 85 L 603 85 L 617 85 L 631 85 L 645 85 L 659 85 L 673 85 L 687 85 L 701 85 L 715 85 L 729 85 L 743 85 L 757 85 L 757 99 L 743 99 L 729 99 L 715 99 L 701 99 L 687 99 L 673 99 L 659 99 L 645 99 L 631 99 L 617 99 L 603 99 L 589 99 L 575 99 L 561 99 L 547 99 L 533 99 L 519 99 L 505 99 L 491 99 L 477 99 L 463 99 L 449 99 L 435 99 L 421 99 L 407 99 L 393 99 L 379 99 L 365 99 L 351 99 L 337 99 L 323 99 L 309 99 L 295 99 L 281 99 L 267 99 L 253 99 L 239 99 L 225 99 L 211 99 L 197 99 L 183 99 L 169 99 L 155 99 L 141 99 L 127 99 L 113 99 L 99 99 L 85 99 L 71 99 L 57 99 L 43 99 L 29 99 L 29 113 L 43 113 L 57 113 L 71 113 L 85 113 L 99 113 L 113 113 L 127 113 L 141 113 L 155 113 L 169 113 L 183 113 L 197 113 L 211 113 L 225 113 L 239 113 L 253 113 L 267 113 L 281 113 L 295 113 L 309 113 L 323 113 L 337 113 L 351 113 L 365 113 L 379 113 L 393 113 L 407 113 L 421 113 L 435 113 L 449 113 L 463 113 L 477 113 L 491 113 L 505 113 L 519 113 L 533 113 L 547 113 L 561 113 L 575 113 L 589 113 L 603 113 L 617 113 L 631 113 L 645 113 L 659 113 L 673 113 L 687 113 L 701 113 L 715 113 L 729 113 L 743 113 L 757 113 L 771 113 L 785 113 L 799 113 L 813 113 L 827 113 L 841 113 L 855 113 L 869 113 L 883 113 L 897 113 L 911 113 L 925 113 L 939 113 L 953 113 L 967 113 L 981 113 L 995 113 L 1009 113 L 1023 113 L 1037 113 L 1051 113 L 1065 113 L 1079 113 L 1093 113 L 1107 113 L 1121 113 L 1135 113 L 1149 113" dur="22.4s" begin="0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.8884;1" rotate="auto"/>
+</g>
+</svg>
